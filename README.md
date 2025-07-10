@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PageBlanche
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
@@ -57,3 +58,13 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# Page Blanche – Le début de votre histoire
+Page Blanche est un site de rencontre narratif où l’on ne swipe pas sur des profils, mais sur des univers à co-créer. Ici, chaque utilisateur incarne un personnage imaginé, accompagné d’un pitch, d’un plot twist, ou même d’un simple fragment d’histoire. Les autres membres, s’ils sont touchés ou intrigués, peuvent choisir de rejoindre l’aventure en ajoutant leur propre personnage et en tissant ensemble une narration commune.
+
+Ce n’est pas juste une rencontre, c’est un récit qui s’écrit à deux, à trois, ou plus — une page blanche à remplir à plusieurs plumes.
+
+🎭 Crée ton rôle.
+📖 Lance ton histoire.
+💌 Rencontre à travers la fiction.
+>>>>>>> d2b6d25b356d6d85cba3236513314150826f0107

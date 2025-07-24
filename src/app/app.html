@@ -1,73 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Page Blanche</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-    }
-
-    header, footer {
-      position: fixed;
-      left: 0;
-      right: 0;
-      background-color: black;
-      color: white;
-      padding: 1em;
-      z-index: 1000;
-    }
-
-    header {
-      top: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.5em 2em;
-    }
-
-    .left-nav, .right-nav {
-      display: flex;
-      gap: 20px;
-    }
-
-    footer {
-      bottom: 0;
-      text-align: center;
-    }
-
-    .content {
-      text-align: center;
-      padding: 120px 20px 80px; /* espace pour le header et le footer */
-    }
-
-    .content h1 {
-      font-size: 3em;
-      margin: 0;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
 
   <header>
     <div class="left-nav">
-      <a routerLink="/register">Inscription</a>
+      <a class="nav-link active text-light" aria-current="page" ariaCurrentWhenActive="page" routerLink="/register" routerLinkActive="active"><i class="bi bi-house-fill"></i>Inscription</a>
     </div>
     <div class="right-nav">
-      <a routerLink="/langues">Langues</a>
-      <a routerLink="/login-form">Connexion</a>
+      <a class="nav-link active text-light" aria-current="page" ariaCurrentWhenActive="page" routerLink="/langues" routerLinkActive="active"><i class="bi bi-house-fill"></i>Langue</a>
+      <a class="nav-link active text-light" aria-current="page" ariaCurrentWhenActive="page" routerLink="/login-form" routerLinkActive="active"><i class="bi bi-house-fill"></i>Connexion</a>
     </div>
 
   </header>
@@ -87,5 +25,3 @@
     <p>© Page Blanche — Créé en 2025</p>
   </footer>
 
-</body>
-</html>

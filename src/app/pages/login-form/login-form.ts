@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login-form.html'
+  selector: 'app-login-form',
+  templateUrl: './login-form.html',
+  imports: [CommonModule, ReactiveFormsModule]
 })
-export class LoginComponent {
+export class LoginForm {
   loginForm: FormGroup;
 
   constructor(private fb: FormBuilder) {
-    // Création du formulaire avec validation de base
     this.loginForm = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       password: ['', Validators.required]

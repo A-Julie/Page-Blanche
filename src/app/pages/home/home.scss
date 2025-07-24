@@ -1,0 +1,20 @@
+
+    .content {
+      text-align: center;
+      padding: 120px 20px 80px; /* espace pour le header et le footer */
+    }
+
+    .content h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }

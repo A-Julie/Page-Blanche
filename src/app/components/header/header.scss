@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 0.5em 2em;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between; // <-- Sépare gauche et droite
+  align-items: center;
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

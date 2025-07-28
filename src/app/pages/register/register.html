@@ -1,1 +1,22 @@
-<p>register works!</p>
+<form [formGroup]="register" (ngSubmit)="onRegister()">
+  <label>Pronom</label>
+  <input type="text" formControlName="pronoun" />
+
+  <label>Nom de profil</label>
+  <input type="text" formControlName="nameProfil" />
+
+  <label>Date de naissance</label>
+  <input type="date" formControlName="datebirth" />
+
+  <label>Email</label>
+  <input type="email" formControlName="email" />
+
+  <label>Mot de passe</label>
+  <input type="password" formControlName="password" />
+
+  <button type="submit">S'inscrire</button>
+</form>
+
+<div *ngIf="register.get('email')?.invalid && register.get('email')?.touched">
+  <small style="color: red;">Email invalide</small>
+</div>

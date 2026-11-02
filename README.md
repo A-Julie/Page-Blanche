@@ -34,8 +34,8 @@ Ce n'est pas juste une rencontre, c'est un récit qui s'écrit à deux, à trois
 ## Installation
 
 ```bash
-git clone https://github.com/A-Julie/<nom-du-repo>.git
-cd <nom-du-repo>
+git clone https://github.com/A-Julie/page-blanche.git
+cd page-blanche
 npm install
 ```
 
